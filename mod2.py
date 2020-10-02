@@ -3,10 +3,10 @@
 #     else: print("odd")
 # oe(int(input("enter a no:-")))
 
-# def n_str(s):             #3
-#     if(s[:2].lower() == 'is'):return s
-#     return 'Is'+ s
-# print(n_str(input("enter a str:-")))
+def n_str(s):   
+  if(s[:2].lower() == 'is'):return s
+  return 'Is'+ s
+  print(n_str(input("enter a str:-")))
 
 # l1=['aa','bb','cc']
 # l2=['aa','cc']
